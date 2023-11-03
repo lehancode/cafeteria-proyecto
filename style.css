@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+ul, ol {
+    list-style-position: inside
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+/* fin reseteos */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+h1 {
+    font-family: Roboto Slab, sans serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header {
+    border: 5px solid black;
+}
+
